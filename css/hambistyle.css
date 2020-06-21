@@ -1,21 +1,40 @@
+@font-face {
+    color: yellow;
+    font-family: "BalsamiqSans-BoldItalic";
+    src: url("css\fonts\Balsamiq_Sans\BalsamiqSans-BoldItalic.ttf");
+    font-size: 19px;
+}
+
 h2 {
     color: blue;
     font-family: "roboto"
     src url("css\fonts\Roboto\Roboto-Regular.ttf");
-    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
 }
 
 
 h3 {
-    color: red;
-    font-size: 24px;
-    }
-
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
 h4 {
-    color:green;
-    font-size: 18px
-} 
+    color: red;
+    font-family: "BalsamiqSans-BoldItalic";
+    src: url("css\fonts\Balsamiq_Sans\BalsamiqSans-BoldItalic.ttf");
+    font-weight: bold;
+    text-align: left;
+}
+
 h6 {
     color: yellow;
     font-size: 18px
 } 
+
+h1 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
