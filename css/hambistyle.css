@@ -1,7 +1,10 @@
-h2 {
+h1 {
     color: blue;
-    font-size: 36px
-    }
+    font-family: "roboto"
+    src: url("css\fonts\Roboto\Roboto-Regular.ttf");
+    font-weight: 900;
+}
+
 
 h3 {
     color: red;
