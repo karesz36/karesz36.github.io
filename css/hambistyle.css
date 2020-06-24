@@ -46,3 +46,8 @@ td {
     color: red;
     font-size: medium;
 }
+html {
+    background-color: greenyellow;
+    background-position: left center;
+    background-repeat: repeat-y;
+}
