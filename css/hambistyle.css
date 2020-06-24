@@ -51,3 +51,19 @@ html {
     background-position: left center;
     background-repeat: repeat-y;
 }
+
+body {
+    background-color: yellow;
+}
+
+body div.login-div {
+    padding: 15px;
+    border: solid 1px  color: red;
+    box-shadow: 0 0 2px #777777;
+    display: inline-block;
+}
+
+.login-div input {
+    display: block;
+    margin-bottom: 7px;
+}
