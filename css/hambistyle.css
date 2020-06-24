@@ -17,7 +17,7 @@ h2 {
 h3 {
     color: green;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-weight: 300;
 }
 h4 {
     color: red;
@@ -47,7 +47,7 @@ td {
     font-size: medium;
 }
 html {
-    background-color: greenyellow;
+    background-color: yellow;
     background-position: left center;
     background-repeat: repeat-y;
 }
