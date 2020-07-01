@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Karesz galéria</title>
     <link rel="stylesheet" href="css/botstrap css/bootstrap.min.css">
+    <title>Document</title>
 </head>
 
-
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="burgerindex.html">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -42,28 +42,43 @@
             </form>
         </div>
     </nav>
-    
-    <h2>Galéria</h2>
-    <ul>
-        <li>
-            <a href="img\Marhahambi.jpg">Marhahambi</a>
-        </li>
-        <li>
-            <a href="img\Sertéshambi.jpg">Sertéshambi</a>
-        </li>
-        <li>
-            <a href="img\Pulykahambi.jpg">Pulykahambi</a>
-        </li>
-        <li>
-            <a href="img\Halhambi.jpg">Halashambi</a>
-        </li>
-        <li>
-            <a href="img\Sojahambi.jpg">Szójahambi</a>
-        </li>
-        <li>
-            <a href="img\Veganhambi.jpg">Zöldséghambi</a>
-        </li>
-    </ul>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3"></div>
+
+            <div class="col-6">
+                <h4>Hamburger rendelés</h4>
+                <form action="">
+
+                    <div class="form-group">
+                        <label for="">Feltét</label>
+                        <input type="text" name="top-input" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Mennyiség</label>
+                        <input type="number" name="amount-input" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        Fizetendő: <span class="show-amount">0</span>Ft
+                    </div>
+
+                    <button onclick="calcAmount()" type="button" class="btn btn-primary">Megrendelés</button>
+
+                </form>
+
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+
+
+
+
 </body>
 
-</html>
+</html
