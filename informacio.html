@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Karesz informacio</title>
-   <link rel="stylesheet" href="css\hambistyle.css">
+   <link rel="stylesheet" href="css/burgerstyle.css">
    
 </head>
 
@@ -25,11 +25,11 @@
    <h4>Ha már tag vagy, lépj be!</h4>
    <div class="login-div">
        <div class="form-group"> 
-           <label> Email</label> 
-           <input type="text" placeholder="Enter Username" name="uname" required>
+           <label for="email"> Email</label> 
+           <input type="email" placeholder="Enter Username" name="uname" required>
        </div>
        <div class="form-group"> 
-           <label> Password</label>
+           <label for="password"> Password</label>
            <input type="password" placeholder="Enter Password" name="psw" required>  
        </div>
        
@@ -53,9 +53,9 @@
    </h5>
    <p>
    </p>
-   
-   <button type="button" onclick="window.location.href='https://goo.gl/maps/aSepgm1GZS6Zkze98'" >Térkép hozzánk</button>
-   
+   <form >
+   <button   type="button" onclick=" window.location.href='https://goo.gl/maps/aSepgm1GZS6Zkze98'"  >Térkép hozzánk</button>
+   </form>
   
    <p>
    </p>
@@ -63,8 +63,7 @@
 
    </h6>
 <h3>Nyitvatartás</h3>
-   <table> 
-       
+   <table>  
       <thead>
           <tr>
               <th>Nap</th>
