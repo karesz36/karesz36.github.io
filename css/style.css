@@ -1,6 +1,7 @@
-h2 {
+h3 {
     color: blue;
     text-align: center;
+    font-style: italic;
     }
 
 p {
@@ -11,5 +12,22 @@ fieldset {
     background-color: greenyellow;
 }
 html {
-background-color: blue;
+background-color:greenyellow;
 }
+h5 {
+    color: blue;
+    text-align: left;  
+}
+.button {
+    background-color: lightblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+

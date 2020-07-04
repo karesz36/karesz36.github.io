@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-
+<fieldset>
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -26,27 +26,44 @@
                     <a class="nav-link" href="etlap.html">Étlap <span class="sr-only">(current)</span></a>
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="rendeles leadas.html">Rendelés</a>
                 </li>
                 
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="informacio.html">Információk</a>
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="galeria.html">Galéria</a>
                 </li>
             </ul>
+            <div class="custom-select" style="width:200px;">
+                <select>
+                  <option value="0">Válassz hambit!</option>
+                  <option href="img\Marhahambi.jpg" value="1">Marhahambi</option>
+                  <option value="2">Sertéshambi</option>
+                  <option value="3">Pulykahambi</option>
+                  <option value="4">Halashambi</option>
+                  <option value="5">Szójahambi</option>
+                  <option value="6">Zöldséghambi</option>
+                  <option value="7">Hambimenü</option>
+                  
+                </select>
+              </div>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <input class="form-control mr-sm-2" type="search" placeholder="Keresés..." aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" >Keresés</button>
+            </form>
+           
+            <form action="https://www.google.hu/">
+                <input type="submit" value="Google-keresés" />
             </form>
         </div>
     </nav>
 
-    <h2>Karesz fantasztikus hamburgerei</h2>
-    <fieldset>
+    <h3>Karesz fantasztikus hamburgerei</h3>
+   
         <ul>
             <li>
                 <a target="blank" href="galeria.html"><strong>Húsoshambik</strong> </a>
@@ -80,20 +97,20 @@
                     <a href="img\Zoldseghambi.jpg">Zöldséghambi</a>
                 </li>
             </ul>
-    </fieldset>
     
-<fieldset>
+    
+
      <h4>Rendelés lépései</h4>
 
         <ol>
-            <h5>
+            <h6>
                 <li><a target="blank" href="galeria.html"> Válassz egy hamburgert!</a></li>
                 <li><a target="blank" href="informacio.html"> Rendeld meg telefonon vagy e-mailben!</a>
                 <li><a target="blank" href="rendeles.html"> Töltsd ki az ürlapot!</a>
                 <li><a target="blank" href="https://www.youtube.com/watch?v=1t5NPsi9OE4"> Hallgass zenét,
                         amíg vársz a futárra!</a>
-            </h5>
-</fieldset>
+            </h6>
+
        
 
         </ol>
@@ -109,5 +126,5 @@
         </a>
 
 </body>
-
+</fieldset>
 </html>
