@@ -1,10 +1,15 @@
-h1 {
+h2 {
     color: blue;
+    text-align: center;
     }
 
 p {
     color: yellow;
     font-size: 36px;
     }
-
-h2 
+fieldset {
+    background-color: greenyellow;
+}
+html {
+background-color: blue;
+}
