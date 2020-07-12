@@ -1,0 +1,114 @@
+html {
+    background-color: yellowgreen;
+}
+#urlap /*-------------------------------------------- Ez az űrlap*/
+{
+width: 885px;
+
+margin: 0 auto;
+background: url("../img/backgr.blue3.jpg");
+background-color: yellowgreen;
+border: 0px solid #aa6666;
+padding: 15px;
+border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+}
+
+#tartalom
+{
+width:450px;
+padding-left:245px;
+padding-top: 60px;
+}
+
+.cimke /*-------------------------------------------beviteli mezők cimkéje*/
+{
+font-size: 14px;
+font-weight: bold;
+color: black;
+margin:11px 240px 0 0;
+width:300px;
+}
+
+.beviteli /*-----------------------------------ez tartalmazza a beviteli mez�t*/
+{
+margin: 6px 240px 8px 0px;
+width:405px;
+color:#000000;
+}
+
+#mezo  /*-----------------------------------ez a beviteli mez�*/
+{
+width: 400px;
+height: 30 px;
+border: 2px solid #38244a;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+font-weight: bold;
+font-size: 12px
+
+
+}
+#gombtarto  /*-------------------------------ebben van a gomb*/
+{
+margin: 10px 0px 10px 0px;
+
+
+}
+#gomb
+{
+background: #38244a;
+color: #fff;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+font-weight: bold;
+font-size: 18px;
+border: 0px solid #38244a;
+width: 150px;
+height: 50 px;
+
+
+}
+
+#gomb:hover
+{
+border: 0px solid #ea155f;
+background: #877993;
+}
+
+/* ----------------------------------------------eddig tart az �rlap */
+
+/* itt kezdődik a navbar css-e */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  login-div{
+position: absolute;
+  }
