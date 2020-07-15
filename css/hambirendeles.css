@@ -3,7 +3,7 @@ html {
 }
 #urlap /*-------------------------------------------- Ez az űrlap*/
 {
-width: 885px;
+width: 825px;
 
 margin: 0 auto;
 background: url("../img/backgr.blue3.jpg");
@@ -13,6 +13,12 @@ padding: 15px;
 border-radius: 10px;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
+}
+.checkbox {
+ font-size: 18px; 
+}
+#quantity {
+  font-size: 11px ;
 }
 
 #tartalom
@@ -24,7 +30,7 @@ padding-top: 60px;
 
 .cimke /*-------------------------------------------beviteli mezők cimkéje*/
 {
-font-size: 14px;
+font-size: 16px;
 font-weight: bold;
 color: black;
 margin:11px 240px 0 0;
@@ -35,6 +41,7 @@ width:300px;
 {
 margin: 6px 240px 8px 0px;
 width:405px;
+
 color:#000000;
 }
 
@@ -81,7 +88,7 @@ background: #877993;
 
 /* ----------------------------------------------eddig tart az �rlap */
 
-/* itt kezdődik a navbar css-e */
+/* itt kezdődik a navbar css */
 ul {
     list-style-type: none;
     margin: 0;
