@@ -71,10 +71,14 @@ textarea {
     object-position: left;
     position: static;
   }
-  div.idojaras {
-    position: absolute;
-    right: 0;
+  .idojaras {
+    position: absolute ;
+    right: 300px;
     width: 500px;
     height: 200px;
+    background-position: center;
+    object-fit: none;
+    object-position: 50% 50%; /* default value: image is centered*/
+    
     
   }
