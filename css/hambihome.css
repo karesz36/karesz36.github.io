@@ -63,19 +63,34 @@ textarea {
   .container{
      background-color: lightblue ; 
   }
-  div {
-    
-  }
+  
   iframe {
     background-color: lightblue;
     object-position: left;
     position: static;
   }
   .idojaras {
-    position: absolute ;
+    position: fixed ;
     right: 300px;
     width: 500px;
     height: 200px;
     background-position: center;
-    
+   
   }
+  #leftimage {
+  position: fixed ;
+  float: left;
+  background-position: left;  
+    
+    }
+
+  #rightimage {
+    position: relative ;
+    float: right;
+    background-position: right;
+  }
+  img {
+    height: 450px;
+    border-radius: 50%;
+  }    
+

@@ -7,6 +7,7 @@ html {
 width: 850px;
 margin: 0 auto;
 background: url("../img/backgr.blue3.jpg");
+
 background-color: yellowgreen;
 border: 0px solid #aa6666;
 padding: 15px;
@@ -14,24 +15,27 @@ border-radius: 10px;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 }
+#kitolt {
+  font-style: justify;
+}
 
 .checkbox {
  font-size: 18px; 
 }
 #quantity {
   font-size: 11px ;
+  height: 18px;
 }
 
-#tartalom
-{
-width:450px;
+#tartalom {
+width: 400px;
 padding-left:245px;
 padding-top: 60px;
 }
 
 .cimke /*-------------------------------------------beviteli mezők cimkéje*/
 {
-font-size: 16px;
+font-size: 13px;
 font-weight: bold;
 color: black;
 margin:11px 240px 0 0;
