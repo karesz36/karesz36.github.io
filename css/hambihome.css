@@ -80,17 +80,17 @@ textarea {
   #leftimage {
   position: fixed ;
   float: left;
-  background-position: left;  
-    
+  padding-top: 5%; 
     }
 
   #rightimage {
     position: relative ;
     float: right;
-    background-position: right;
+    padding-top: 5%;
   }
   img {
     height: 450px;
     border-radius: 50%;
+   
   }    
 
