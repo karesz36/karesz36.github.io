@@ -42,7 +42,7 @@ margin:11px 240px 0 0;
 width:300px;
 }
 
-.beviteli /*-----------------------------------ez tartalmazza a beviteli mez�t*/
+.beviteli /*-----------------------------------ez tartalmazza a beviteli mezőt*/
 {
 margin: 6px 240px 8px 0px;
 width:405px;
@@ -50,7 +50,7 @@ width:405px;
 color:#000000;
 }
 
-#mezo  /*-----------------------------------ez a beviteli mez�*/
+#mezo  /*-----------------------------------ez a beviteli mező*/
 {
 width: 400px;
 height: 30 px;
@@ -91,7 +91,7 @@ border: 0px solid #ea155f;
 background: #877993;
 }
 
-/* ----------------------------------------------eddig tart az �rlap */
+/* ----------------------------------------------eddig tart az Űrlap */
 
 /* itt kezdődik a navbar css */
 ul {

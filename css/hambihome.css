@@ -68,29 +68,38 @@ textarea {
     background-color: lightblue;
     object-position: left;
     position: static;
+    
+
+    
   }
   .idojaras {
+    
     position: fixed ;
     right: 300px;
     width: 500px;
-    height: 200px;
     background-position: center;
-   
   }
+  
+  
+
   #leftimage {
   position: fixed ;
   float: left;
-  padding-top: 5%; 
+  padding-top: 5%;
+  border-radius: 70%;
+  height: 450px;
     }
 
   #rightimage {
     position: relative ;
     float: right;
     padding-top: 5%;
+    border-radius: 50%;
+    
   }
   img {
-    height: 450px;
-    border-radius: 50%;
-   
+    
+    border-radius: 8px;
+    height: 400px;
   }    
 
