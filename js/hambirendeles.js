@@ -26,11 +26,11 @@ function calcAmount () {
     
     function showSumPrice(price, amountNumber) {
         let showAmount = document.querySelector("span.show-amount");
-        if ( amountNumber > 10 ) {
-            alert("Maximum 10 terméket vásárolhat!");
+        if ( amountNumber > 20 ) {
+            alert("Maximum 20 terméket vásárolhat egy rendeléssel!");
         
         } else if ( amountNumber < 1 ) {
-            alert("Minimum 1 terméket vásárolni kell!");
+            alert("Minimum 1 terméket írjon be kérem!");
             
         } else {  
             let amount = amountNumber * price;  
