@@ -1,39 +1,23 @@
-function validateForm() {  
-    // Termék egységára. 
-    let pricePerPiece = 1200;   
+function calcAmountSum() {
+    let priceSauce = 100;
+    let amountInputSauce = document.querySelector("input#topInput");
+    let amountSauce = parseInt(amountInputSauce.value) * priceSauce;
+   /* let numberSause = parseInt(amountInputSauce.value);
+    numberSauce = isNaN(numberSauce) ? 0 : numberSauce; */
 
-    // Kiválasztom a mennyiséget és a message mező ár részét.  
-    let amountInput = document.querySelector("form#order input[name=amount]");
-    let priceField = document.querySelector("form#order .message strong");   
+    let priceBurger = 1000;
+    let amountInputBurger = document.querySelector("input#amountInput");
+    let amountBurger = parseInt(amountInputBurger.value) * priceBurger;
+   /* let numberBurger = parseInt(amountInputBurger.value);
+    numberBurger = isNaN(numberBurger) ? 0 : numberBurger; */
+    
+    let amountSum = amountSauce + amountBurger;
+   
+    showSumPrice(amountSauce, amountBurger);
 
-    // Kiolvasom a bevitt mennyiséget és szorzom az egységárral.  
-    let amount = parseInt(amountInput.value);  
-    let totalAmount = amount * pricePerPiece;   
-
-    // Kiírom az üzenetet, azaz frissítem az árat.  
-    priceField.innerHTML = `${totalAmount}`;
 }
-function calcAmount () {
-    let price = 1000;
-    let amountInput = document.querySelector("input[name='amount-input']");
-    
-    let amountNumber = parseInt(amountInput.value);
-    amountNumber = isNaN(amountNumber) ? 0 : amountNumber;
-    
-    showSumPrice(price, amountNumber);
-    }
-    
-    
-    function showSumPrice(price, amountNumber) {
-        let showAmount = document.querySelector("span.show-amount");
-        if ( amountNumber > 20 ) {
-            alert("Maximum 20 terméket vásárolhat egy rendeléssel!");
-        
-        } else if ( amountNumber < 1 ) {
-            alert("Minimum 1 terméket írjon be kérem!");
-            
-        } else {  
-            let amount = amountNumber * price;  
-            showAmount.innerHTML = amount;
-        }
-    }
+function showSumPrice(amountSauce, amountBurger) {
+    let showAmount = document.querySelector("span.show-amount");
+    let amountSum = amountSauce + amountBurger;  
+    showAmount.innerHTML = amountSum;
+}

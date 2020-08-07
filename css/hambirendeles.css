@@ -22,38 +22,52 @@ border-radius: 10px;
 .checkbox {
  font-size: 18px; 
 }
-#quantity {
+#quantity 
+{
   font-size: 11px ;
   height: 18px;
 }
 
-#tartalom {
+#tartalom 
+{
 width: 400px;
 padding-left:245px;
-padding-top: 60px;
+padding-top: 20px;
 }
 
 .cimke /*-------------------------------------------beviteli mezők cimkéje*/
 {
-font-size: 13px;
+font-size: 16px;
 font-weight: bold;
-color: black;
-margin:11px 240px 0 0;
+color:  black;
+margin: 25px 240px 8px 0px;
 width:300px;
 }
 
 .beviteli /*-----------------------------------ez tartalmazza a beviteli mezőt*/
 {
-margin: 6px 240px 8px 0px;
+margin: 25px 240px 8px 0px;
 width:405px;
-
-color:#000000;
+font-size: 16px;
+color: black;
+box-shadow: black;
 }
 
+
+#quantity 
+{
+  
+  width:30px;
+  font-size: 13px;
+  color: black;
+  font-weight: 700;
+  box-shadow: black;
+
+}
 #mezo  /*-----------------------------------ez a beviteli mező*/
 {
-width: 400px;
-height: 30 px;
+width: 300px;
+height: 25px;
 border: 2px solid #38244a;
 border-radius: 5px;
 -webkit-border-radius: 5px;
@@ -141,8 +155,8 @@ color:blue;
 
 .container {
   width: 440px;
-	height: 80px;
-	background: lightblue;
+	height: 90px;
+	display: block;
 	color: black;
 	margin: 0 auto 0 auto;
 }

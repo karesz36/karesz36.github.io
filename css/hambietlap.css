@@ -1,4 +1,4 @@
-/* NARANCSDOBOZOK */
+/* NARANCSDOBOZOK 
 .linkimage-orange {
     margin-top: 1px;
     width: 100%;
@@ -39,7 +39,7 @@
     display: flex;
     flex-direction: column;
     overflow-y: auto;
-    /*  max-height: 77%; */
+    max-height: 77%; 
     height: auto;
     position: relative;
   }
@@ -73,10 +73,14 @@
   .linkkeret-orange:hover {
     border-color: red;
     box-shadow: 6px 3px 8px 3px rgba(0, 0, 0, 0.5);
-  }
+  } */ /*eddig ki van vonva a forgalombol az összes narancsdoboz*/
   
   /* KÉKDOBOZOK KÉKDOBOZOK KÉKDOBOZOK KÉKDOBOZOK*/
   
+  html
+  {
+    background-color: greenyellow;
+  }
   .linkimage 
   {
     margin-top: 5px;
@@ -85,7 +89,7 @@
     min-width: 200px;
     max-width: 400px;
     max-height: 200px;
-    background-color: lightblue;
+    
     height: 170px;
   }
   
@@ -177,15 +181,20 @@
 
   .linkkeret:hover .linkbase 
   {
-    color: rgb(0, 255, 0);
+    color: white;
   }
   
   .linkkeret:hover .linkcontent {
-    color: rgb(0, 255, 0);
+    color: white;
   }
   
+.linkimage:hover {
+color: indigo;
+}
+
+  
   .linkkeret:hover {
-    border-color: rgb(0, 255, 0);
+    border-color: white;
     box-shadow: 6px 3px 8px 3px rgba(0, 0, 0, 0.5);
   }
   

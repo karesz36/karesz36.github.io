@@ -33,6 +33,7 @@ img
     border-radius: 50%;
     max-width: 130px; 
     max-height: 130px;
+    box-shadow: black;
   }
 #leftimages {
     position: relative ;
